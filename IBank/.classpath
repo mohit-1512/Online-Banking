@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_11">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.generic.runtimeTarget/JBoss v4.2">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/IBank Libraries"/>
+	<classpathentry kind="lib" path="C:/Users/Trgl1/Desktop/rECycle/RcycleM2/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Trgl1/Desktop/rECycle/RcycleM3/jsp lib/jstljars/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Trgl1/Desktop/rECycle/RcycleM3/jsp lib/jstljars/standard.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

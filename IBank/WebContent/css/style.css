@@ -1,0 +1,353 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	}
+
+
+
+
+	
+	
+.logoText
+{
+	font-size:69px;
+	color: #09F;
+}
+
+
+a{
+	color: #09F;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+
+.box
+{
+	background-color:#EEE;
+	border-radius:3px;
+}
+
+
+	
+#nav
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#nav >li
+{
+	
+	text-align: right;
+}
+
+#nav >li >a
+{
+	background-color: #09f;
+	display:inline-block;
+	width:90%;
+	margin-bottom: 15px;
+	padding: 5px;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+#nav li ul li
+{
+	margin: 0px;
+	background-color: 
+}
+
+#nav li ul li a
+{
+	margin: 0px;
+	background-color:aqua; 
+}
+
+#nav li a:hover
+{
+	width:95%;
+	text-decoration: none;
+		background-color: #06A;
+	
+}
+
+.sidebar
+{
+	margin-top:15px;
+	width: 180px;
+display: inline-block;
+float: left;
+       
+	}
+	
+
+
+.main
+{
+	width: 820px;
+display: inline-block;	
+	background-color: black;
+	float: left;
+	background-color:#FAFAFA;
+	min-height:400px;
+	
+}
+	
+	
+.bg-blue
+{
+	border:0px;
+	background-color: #09F;
+}
+
+
+
+#home_nav
+{
+	list-style: none;
+	
+	float:right;
+	margin-bottom:0px;
+	text-align: left;
+	
+}
+
+
+#home_nav li
+{
+	margin:0px;
+	display: inline-block;
+}
+
+#home_nav li a
+{
+	text-decoration:none;
+	color:#999;
+	
+	display: inline-block;
+	padding: 31px;
+	font-size:24px;
+	font-family:inherit;
+	padding-left: 14px;
+	padding-right: 14px;
+	font-weight:24;
+	transition: all 0.3s ease-in-out;
+}
+
+#home_nav li a:hover
+{
+	background-color: #EEE;
+	color: #666;
+}
+
+
+.admin_title_panel
+{
+	color: #B00;
+	padding: 5px;
+	margin-top: 0px;
+	border-bottom: 1px solid #EEE;
+	background-color: #EFEFEF;
+}
+
+.title_panel
+{
+	color: #B00;
+	padding: 5px;
+	margin-top: 0px;
+	border-bottom: 1px solid #EEE;
+	background-color: #EFEFEF;
+}
+
+
+	
+#naver
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#naver >li
+{
+	
+	text-align: right;
+}
+
+#naver >li >a
+{
+	display:block;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #666;
+	font-weight:200;
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+
+#naver li a:hover
+{
+	color:white;
+	padding-right:10px;
+	text-decoration: none;
+	background-color: #09f;
+	
+}
+
+
+/* Admin Page */
+
+#admin_naver
+{
+	list-style: none;
+	margin: 0px;
+	border:1px solid #EEE;
+	border-right:0px;
+	border-top:5px solid #EEE;
+	padding:0px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+#admin_naver >li
+{
+	
+	text-align: left;
+}
+
+#admin_naver >li >a
+{
+	display:block;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #666;
+	font-weight:200;
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+
+#admin_naver li a:hover
+{
+	color:#09F;
+	padding-right:10px;
+	text-decoration: none;
+	background: #EEE;
+	
+}
+/* User Pages */
+
+.user_floating_setting
+{
+	position: fixed; 
+	right: 50px; 
+	padding: 10px;
+	padding-right:20px;
+	padding-left:20px; 
+	color:white;
+	background-color: rgba(0,0,0,0.7);
+}
+.user_main_content
+{
+	margin: 0px;
+}
+
+.user_sidebar
+{
+	
+}
+
+.user-container
+{
+	background: linear-gradient(#EEE,#FFF);
+}
+/* -------------------HOME PAGE ONLY------------------- */
+.home_box
+{
+
+	height: 280px; 
+	padding: 10px;
+	background-color: #EEE;
+	margin: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius:5px;
+	color: #666;
+
+}
+
+.home_box h4
+{
+	background-color: #FFF;
+	border-radius:5px;
+	padding: 2px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: left;
+}
+	
+
+
+
+
+/*--------------BOOTSTRAP FIXES---------------------*/
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
